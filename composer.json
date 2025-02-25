@@ -1,0 +1,25 @@
+{
+    "name": "coldblader/meituan",
+    "description": "美团API",
+    "type": "library",
+    "require": {
+        "hughcube/guzzle-http": "*",
+        "php": ">=7.4.22"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpstan/phpstan": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ColdBlader\\MeiTuan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "黄平",
+            "email": "huangping@lmmot.com"
+        }
+    ]
+}
